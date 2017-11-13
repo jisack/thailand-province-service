@@ -1,0 +1,20 @@
+version : 3
+services: 
+  app: 
+    build: ./nodemon
+    ports:
+     - 7000:7000
+    volumes:
+     - ./:app/   
+  database: 
+    image: mysql
+    volumes:
+     - ./mysql/data:/var/lib/mysql
+    enviroment:
+     - MYSQL_DATABASE=thailand_province
+     - MYSQL_USER=thailand_province
+     - MYSQL_PASSWORD=th_province
+     - MYSQL_ROOT_PASSWORD=root
+    ports: 
+     - 3306:3306
+  

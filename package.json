@@ -1,0 +1,31 @@
+{
+  "name": "thailand-province-service",
+  "version": "0.0.1",
+  "description": "thailand province and district service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thailand",
+    "thailand service",
+    "province",
+    "district",
+    "amphur",
+    "thailand province amphur",
+    "thailand province",
+    "thailand province service",
+    "thailand district",
+    "thailand district service",
+    "thailand province distict",
+    "thailand province distict service",
+    "service"
+  ],
+  "author": "Jisack",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "knex": "^0.14.0",
+    "mysql": "^2.15.0"
+  }
+}
