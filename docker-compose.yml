@@ -5,7 +5,7 @@ services:
     ports:
      - 7000:7000
     volumes:
-      - ./:/app
+     - ./:/app
     links:
      - mysql_database   
   mysql_database: 

@@ -1,10 +1,11 @@
-const app = require('./app');
+const model = require('./model');
+
 module.exports = (server) => {
     server.route({
         method: 'GET',
         path: '/province',
         handler: (request, reply) => {
-            return reply('Province')
+            return reply(model.getProvince)
         }
     });
 
@@ -12,7 +13,7 @@ module.exports = (server) => {
         method: 'GET',
         path: '/amphur/{province_id}',
         handler: (request, reply) => {
-            return reply('Amphur' + request.params.province_id)
+            return reply(model.getAmphur(request.params.province_id))
         }
     });
 }

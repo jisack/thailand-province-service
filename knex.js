@@ -1,6 +1,5 @@
-const knex = require('knex');
-
-const mysqlDatabase = knex()({
+const knex = require('knex')
+const mysqlDatabase = knex({
     client: 'mysql',
     connection: {
         host: 'mysql_database',
@@ -9,5 +8,4 @@ const mysqlDatabase = knex()({
         database: 'thailand_province'
     }
 });
-
 module.exports = mysqlDatabase;
