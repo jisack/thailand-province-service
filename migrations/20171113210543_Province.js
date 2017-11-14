@@ -4,7 +4,7 @@ exports.up = function (knex, Promise) {
         provinceTable.string('name').notNullable();
         provinceTable.string('name_eng').notNullable();
     }).then(() => {
-
+        console.log('province migrate success.');
     });
 };
 

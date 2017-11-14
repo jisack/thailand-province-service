@@ -1,6 +1,6 @@
 FROM node:6
 
-RUN npm install nodemon -g
+RUN npm install nodemon knex -g
 
 WORKDIR /app
 

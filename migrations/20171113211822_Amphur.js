@@ -5,7 +5,7 @@ exports.up = function (knex, Promise) {
         amphurTable.string('name').notNullable();
         amphurTable.string('name_eng').notNullable();
     }).then(() => {
-
+        console.log('amphur migrate success.');        
     })
 };
 
