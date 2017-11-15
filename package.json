@@ -25,6 +25,7 @@
   "author": "Jisack",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "hapi": "^16.6.2",
     "knex": "^0.14.0",
     "mysql": "^2.15.0"

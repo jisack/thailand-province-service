@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
     development: {
         migrations: {
@@ -14,6 +15,23 @@ module.exports = {
             database: 'thailand_province',
             charset: 'utf8',
             port: '3306'            
+        }
+    },
+    production: {
+        migrations: {
+            tableName: 'thailand_province'
+        },
+        seeds: {
+            tableName: './seeds'
+        },
+        client: 'mysql',
+        connection: {
+            host: process.env.MYSQL_HOST,
+            user: process.env.MYSQL_USER,
+            password: process.env.MYSQL_PASSWORD,
+            database: process.env.MYSQL_DB_NAME,
+            charset: 'utf8',
+            port: process.env.MYSQL_PORT         
         }
     }
 };
