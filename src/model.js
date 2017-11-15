@@ -28,7 +28,7 @@ exports.getAmphur = (province_id) => {
             }
         }
         return {
-            provinces: data,
+            amphurs: data,
             total: data.lenght
         }
     }).catch(err => {
