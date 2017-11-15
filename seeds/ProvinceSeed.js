@@ -8,14 +8,14 @@ exports.seed = (knex, Promise) => {
         return {
           id: data.code,
           name: data.name_th,
-          name_eng: data.name_eng
+          name_eng: data.name_en
         }
       })
       // Inserts seed entries
       return knex('provinces').insert(provinces_data);
     }).then(result => {
-      console.log('provinces seed success');
+      console.log(result,'amphurs seed success')
     }).catch(err => {
-      console.log('provinces seed failed');
+      console.log(err,'provinces seed failed');
     });
 };

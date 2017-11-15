@@ -9,16 +9,16 @@ exports.seed = (knex, Promise) => {
           id: data.amphur_id,
           province_id: data.province_id,
           name: data.name_th,
-          name_eng: data.name_eng
+          name_eng: data.name_en
         }
       })
       // console.log(amhpurs)
       // Inserts seed entries
-      return knex('amhpurs').insert(amphurs_data);
+      return knex('amphurs').insert(amphurs_data);
 
     }).then(result => {
-      console.log('amphurs seed success')
+      console.log(result,'amphurs seed success')
     }).catch(err => {
-      console.log('amphurs seed failed')
+      console.log(err,'amphurs seed failed')
     });
 };

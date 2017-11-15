@@ -5,7 +5,7 @@ module.exports = (server) => {
         method: 'GET',
         path: '/province',
         handler: (request, reply) => {
-            return reply(model.getProvince)
+            return reply(model.getProvince())
         }
     });
 
