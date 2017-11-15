@@ -1,4 +1,5 @@
 const knex = require('knex');
+require('dotenv').config({path: './.env'});
 const mysqlDatabase = knex({
     client: 'mysql',
     connection: {
