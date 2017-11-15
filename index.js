@@ -1,8 +1,7 @@
 'use strict'
-
 const hapi = require('hapi');
-// const knexMysql = require('./knex');
 const appRouter = require('./src/router');
+require('dotenv').config({path: './.env'});
 
 const server = new hapi.Server();
 

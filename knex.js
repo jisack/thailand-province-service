@@ -2,10 +2,10 @@ const knex = require('knex');
 const mysqlDatabase = knex({
     client: 'mysql',
     connection: {
-        host: 'mysql_database',
-        user: 'thailand_province',
-        password: 'th_province',
-        database: 'thailand_province',
+        host: process.env.MYSQL_HOST,
+        user: process.env.MYSQL_USER,
+        password: process.env.MYSQL_PASS,
+        database: process.env.MYSQL_DB_NAME,
     }
 });
 module.exports = mysqlDatabase;
