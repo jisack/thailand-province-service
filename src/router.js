@@ -16,4 +16,4 @@ module.exports = (server) => {
             return reply(model.getAmphur(request.params.province_id))
         }
     });
-}
+};
