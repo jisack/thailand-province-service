@@ -5,7 +5,10 @@ const server = new hapi.Server();
 
 server.connection({
     host: 'localhost',
-    port: 7000
+    port: 7000,
+    routes: {
+        cors: true
+    }
 });
 
 //Route
