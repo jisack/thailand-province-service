@@ -1,7 +1,9 @@
-# Thailand Province And Amphur Service
+Thailand Province And Amphur Service
+----
 A api service province and amphur in Thailand country by using Hapi Knex and Mysql with Docker for development
 
-# Getting Start
+Getting Start
+----
 - git clone project
  ``` sh
    $ git clone https://github.com/jisack/thailand-province-service.git
@@ -26,7 +28,8 @@ A api service province and amphur in Thailand country by using Hapi Knex and Mys
  ```
 - so now you can run thailand-province-service on http://localhost:7000
 
-# Endpoint (API)
+Endpoint (API)
+----
  - **[<code>GET</code> province](http://localhost:7000/province)**
  - **[<code>GET</code> amphur/{province_id}](http://localhost:7000/amphurs/10)**
  
