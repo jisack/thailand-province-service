@@ -1,6 +1,6 @@
 const knex = require('knex');
 require('dotenv').config({path: './.env'});
-const mysqlDatabase = knex({
+const mysql_cofig = {
     client: 'mysql',
     connection: {
         host: process.env.MYSQL_HOST,
@@ -9,5 +9,7 @@ const mysqlDatabase = knex({
         database: process.env.MYSQL_DB_NAME,
         port: process.env.MYSQL_PORT
     }
-});
+};
+const mysqlDatabase = knex(mysql_cofig);
+console.log(mysql_cofig)
 module.exports = mysqlDatabase;
