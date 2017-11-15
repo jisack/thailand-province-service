@@ -7,12 +7,13 @@ module.exports = {
             tableName: './seeds'
         },
         client: 'mysql',
-        connections: {
+        connection: {
             host: 'mysql_database',
             user: 'thailand_province',
             password: 'th_province',
             database: 'thailand_province',
-            charset: 'utf8'
+            charset: 'utf8',
+            port: '3306'            
         }
     }
-}
+};
