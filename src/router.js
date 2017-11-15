@@ -5,7 +5,7 @@ module.exports = (server) => {
         method: 'GET',
         path: '/province',
         handler: (request, reply) => {
-            return reply(model.getProvince)
+            return reply(model.getProvince())
         }
     });
 
@@ -16,4 +16,4 @@ module.exports = (server) => {
             return reply(model.getAmphur(request.params.province_id))
         }
     });
-}
+};

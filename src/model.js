@@ -16,7 +16,7 @@ exports.getProvince = () => {
             message: 'something went wrong!!'
         }
     })
-}
+};
 
 exports.getAmphur = (province_id) => {
     return knex('amphurs').where({
@@ -36,4 +36,4 @@ exports.getAmphur = (province_id) => {
             message: 'something went wrong!!'
         }
     })
-}
+};
