@@ -2,23 +2,17 @@ require('dotenv').config({path: './.env'});
 module.exports  = {
     development: {
         migrations: {
-            tableName: 'thailand_province'
+            directory: './src/migrations',
+            tableName: 'migrations'
         },
         seeds: {
-            tableName: './seeds'
+            directory: './src/seeds'
         },
         client: 'mysql',
-<<<<<<< e7c2e02aecf9b06b565971bc2451ed94a6255717
         connection: {
             host: 'mysql_database',
             user: 'thailand_province',
             password: 'th_province',
-=======
-        connections: {
-            host: 'localhost',
-            user: 'root',
-            password: '',
->>>>>>> update knex and hapi version and set new struckture
             database: 'thailand_province',
             charset: 'utf8',
             port: '3306'            
@@ -26,10 +20,11 @@ module.exports  = {
     },
     production: {
         migrations: {
-            tableName: 'thailand_province'
+            directory: './src/migrations',
+            tableName: 'migrations'
         },
         seeds: {
-            tableName: './seeds'
+            directory: './src/seeds'
         },
         client: 'mysql',
         connection: {
