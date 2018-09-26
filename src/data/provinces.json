@@ -1,0 +1,465 @@
+[
+    {
+      "code": "10",
+      "name_th": "กรุงเทพมหานคร",
+      "name_en": "Bangkok",
+      "name_zh": "曼谷"
+    },
+    {
+      "code": "11",
+      "name_th": "สมุทรปราการ",
+      "name_en": "Samut Prakan",
+      "name_zh": "北攬府"
+    },
+    {
+      "code": "12",
+      "name_th": "นนทบุรี",
+      "name_en": "Nonthaburi",
+      "name_zh": "暖武里府"
+    },
+    {
+      "code": "13",
+      "name_th": "ปทุมธานี",
+      "name_en": "Pathum Thani",
+      "name_zh": "巴吞他尼府 "
+    },
+    {
+      "code": "14",
+      "name_th": "พระนครศรีอยุธยา",
+      "name_en": "Phra Nakhon Si Ayutthaya",
+      "name_zh": "大城府"
+    },
+    {
+      "code": "15",
+      "name_th": "อ่างทอง",
+      "name_en": "Ang Thong",
+      "name_zh": "紅統府"
+    },
+    {
+      "code": "16",
+      "name_th": "ลพบุรี",
+      "name_en": "Lopburi",
+      "name_zh": "華富里府"
+    },
+    {
+      "code": "17",
+      "name_th": "สิงห์บุรี",
+      "name_en": "Sing Buri",
+      "name_zh": "信武里府"
+    },
+    {
+      "code": "18",
+      "name_th": "ชัยนาท",
+      "name_en": "Chai Nat",
+      "name_zh": "猜納府"
+    },
+    {
+      "code": "19",
+      "name_th": "สระบุรี",
+      "name_en": "Saraburi",
+      "name_zh": "北標府"
+    },
+    {
+      "code": "20",
+      "name_th": "ชลบุรี",
+      "name_en": "Chonburi  ",
+      "name_zh": "春武里府"
+    },
+    {
+      "code": "21",
+      "name_th": "ระยอง",
+      "name_en": "Rayong",
+      "name_zh": "羅勇府"
+    },
+    {
+      "code": "22",
+      "name_th": "จันทบุรี",
+      "name_en": "Chanthaburi",
+      "name_zh": "尖竹汶府"
+    },
+    {
+      "code": "23",
+      "name_th": "ตราด",
+      "name_en": "Trat",
+      "name_zh": "噠叻府 "
+    },
+    {
+      "code": "24",
+      "name_th": "ฉะเชิงเทรา",
+      "name_en": "Chachoengsao",
+      "name_zh": "北柳府"
+    },
+    {
+      "code": "25",
+      "name_th": "ปราจีนบุรี",
+      "name_en": "Prachinburi",
+      "name_zh": "巴真府"
+    },
+    {
+      "code": "26",
+      "name_th": "นครนายก",
+      "name_en": "Nakhon Nayok",
+      "name_zh": "那空那育府"
+    },
+    {
+      "code": "27",
+      "name_th": "สระแก้ว",
+      "name_en": "Sa Kaeo",
+      "name_zh": "沙繳府"
+    },
+    {
+      "code": "30",
+      "name_th": "นครราชสีมา",
+      "name_en": "Nakhon Ratchasima",
+      "name_zh": "呵叻府"
+    },
+    {
+      "code": "31",
+      "name_th": "บุรีรัมย์",
+      "name_en": "Buriram",
+      "name_zh": "武里南府"
+    },
+    {
+      "code": "32",
+      "name_th": "สุรินทร์",
+      "name_en": "Surin",
+      "name_zh": "素輦府"
+    },
+    {
+      "code": "33",
+      "name_th": "ศรีสะเกษ",
+      "name_en": "Sisaket",
+      "name_zh": "四色菊府"
+    },
+    {
+      "code": "34",
+      "name_th": "อุบลราชธานี",
+      "name_en": "Ubon Ratchathani",
+      "name_zh": "烏汶府"
+    },
+    {
+      "code": "35",
+      "name_th": "ยโสธร",
+      "name_en": "Yasothon",
+      "name_zh": "烏汶府"
+    },
+    {
+      "code": "36",
+      "name_th": "ชัยภูมิ",
+      "name_en": "Chaiyaphum",
+      "name_zh": "猜也奔府"
+    },
+    {
+      "code": "37",
+      "name_th": "อำนาจเจริญ",
+      "name_en": "Amnat Charoen",
+      "name_zh": "庵納乍倫府"
+    },
+    {
+      "code": "38",
+      "name_th": "บึงกาฬ",
+      "name_en": "Bueng Kan",
+      "name_zh": "B汶干"
+    },
+    {
+      "code": "39",
+      "name_th": "หนองบัวลำภู",
+      "name_en": "Nong Bua Lam Phu",
+      "name_zh": "農磨喃普府"
+    },
+    {
+      "code": "40",
+      "name_th": "ขอนแก่น",
+      "name_en": "Khon Kaen",
+      "name_zh": "孔敬府"
+    },
+    {
+      "code": "41",
+      "name_th": "อุดรธานี",
+      "name_en": "Udon Thani",
+      "name_zh": "烏隆府"
+    },
+    {
+      "code": "42",
+      "name_th": "เลย",
+      "name_en": "Loei Province ",
+      "name_zh": "萊府"
+    },
+    {
+      "code": "43",
+      "name_th": "หนองคาย",
+      "name_en": "Nong Khai",
+      "name_zh": "廊開府"
+    },
+    {
+      "code": "44",
+      "name_th": "มหาสารคาม",
+      "name_en": "Maha Sarakham",
+      "name_zh": "瑪哈沙拉堪府"
+    },
+    {
+      "code": "45",
+      "name_th": "ร้อยเอ็ด",
+      "name_en": "Roi Et",
+      "name_zh": "黎逸府"
+    },
+    {
+      "code": "46",
+      "name_th": "กาฬสินธุ์",
+      "name_en": "Kalasin",
+      "name_zh": "膠拉信府"
+    },
+    {
+      "code": "47",
+      "name_th": "สกลนคร",
+      "name_en": "Sakon Nakhon",
+      "name_zh": "色軍府"
+    },
+    {
+      "code": "48",
+      "name_th": "นครพนม",
+      "name_en": "Nakhon Phanom",
+      "name_zh": "那空帕農府"
+    },
+    {
+      "code": "49",
+      "name_th": "มุกดาหาร",
+      "name_en": "Mukdahan",
+      "name_zh": "莫拉限府"
+    },
+    {
+      "code": "50",
+      "name_th": "เชียงใหม่",
+      "name_en": "Chiang Mai",
+      "name_zh": "清邁府"
+    },
+    {
+      "code": "51",
+      "name_th": "ลำพูน",
+      "name_en": "Lamphun",
+      "name_zh": "南奔府"
+    },
+    {
+      "code": "52",
+      "name_th": "ลำปาง",
+      "name_en": "Lampang",
+      "name_zh": "南邦府"
+    },
+    {
+      "code": "53",
+      "name_th": "อุตรดิตถ์",
+      "name_en": "Uttaradit",
+      "name_zh": "程逸府"
+    },
+    {
+      "code": "54",
+      "name_th": "แพร่",
+      "name_en": "Phrae",
+      "name_zh": "帕府"
+    },
+    {
+      "code": "55",
+      "name_th": "น่าน",
+      "name_en": "Nan",
+      "name_zh": "難府"
+    },
+    {
+      "code": "56",
+      "name_th": "พะเยา",
+      "name_en": "Phayao",
+      "name_zh": "帕夭府"
+    },
+    {
+      "code": "57",
+      "name_th": "เชียงราย",
+      "name_en": "Chiang Rai",
+      "name_zh": "清萊府"
+    },
+    {
+      "code": "58",
+      "name_th": "แม่ฮ่องสอน",
+      "name_en": "Mae Hong Son",
+      "name_zh": "夜豐頌府"
+    },
+    {
+      "code": "60",
+      "name_th": "นครสวรรค์",
+      "name_en": "Nakhon Sawan",
+      "name_zh": "北欖坡府"
+    },
+    {
+      "code": "61",
+      "name_th": "อุทัยธานี",
+      "name_en": "Uthai Thani",
+      "name_zh": "烏泰他尼府"
+    },
+    {
+      "code": "62",
+      "name_th": "กำแพงเพชร",
+      "name_en": "Kamphaeng Phet",
+      "name_zh": "甘烹碧府"
+    },
+    {
+      "code": "63",
+      "name_th": "ตาก",
+      "name_en": "Tak",
+      "name_zh": "噠府"
+    },
+    {
+      "code": "64",
+      "name_th": "สุโขทัย",
+      "name_en": "Sukhothai",
+      "name_zh": "素可泰府"
+    },
+    {
+      "code": "65",
+      "name_th": "พิษณุโลก",
+      "name_en": "Phitsanulok",
+      "name_zh": "彭世洛府"
+    },
+    {
+      "code": "66",
+      "name_th": "พิจิตร",
+      "name_en": "Phichit",
+      "name_zh": "披集府"
+    },
+    {
+      "code": "67",
+      "name_th": "เพชรบูรณ์",
+      "name_en": "Phetchabun",
+      "name_zh": "碧差汶府"
+    },
+    {
+      "code": "70",
+      "name_th": "ราชบุรี",
+      "name_en": "Ratchaburi",
+      "name_zh": "叻丕府"
+    },
+    {
+      "code": "71",
+      "name_th": "กาญจนบุรี",
+      "name_en": "Kanchanaburi",
+      "name_zh": "北碧府"
+    },
+    {
+      "code": "72",
+      "name_th": "สุพรรณบุรี",
+      "name_en": "Suphan Buri",
+      "name_zh": "素攀武里府"
+    },
+    {
+      "code": "73",
+      "name_th": "นครปฐม",
+      "name_en": "Nakhon Pathom",
+      "name_zh": "佛統府"
+    },
+    {
+      "code": "74",
+      "name_th": "สมุทรสาคร",
+      "name_en": "Samut Sakhon",
+      "name_zh": "龍仔厝府"
+    },
+    {
+      "code": "75",
+      "name_th": "สมุทรสงคราม",
+      "name_en": "Samut Songkhram",
+      "name_zh": "夜功府"
+    },
+    {
+      "code": "76",
+      "name_th": "เพชรบุรี",
+      "name_en": "Phetchaburi",
+      "name_zh": "佛丕府"
+    },
+    {
+      "code": "77",
+      "name_th": "ประจวบคีรีขันธ์",
+      "name_en": "Prachuap Khiri Khan",
+      "name_zh": "巴蜀府"
+    },
+    {
+      "code": "80",
+      "name_th": "นครศรีธรรมราช",
+      "name_en": "Nakhon Si Thammarat",
+      "name_zh": "洛坤府"
+    },
+    {
+      "code": "81",
+      "name_th": "กระบี่",
+      "name_en": "Krabi",
+      "name_zh": "甲米府"
+    },
+    {
+      "code": "82",
+      "name_th": "พังงา",
+      "name_en": "Phang Nga",
+      "name_zh": "攀牙府"
+    },
+    {
+      "code": "83",
+      "name_th": "ภูเก็ต",
+      "name_en": "Phuket",
+      "name_zh": "普吉府"
+    },
+    {
+      "code": "84",
+      "name_th": "สุราษฎร์ธานี",
+      "name_en": "Surat Thani",
+      "name_zh": "素叻他尼府"
+    },
+    {
+      "code": "85",
+      "name_th": "ระนอง",
+      "name_en": "Ranong",
+      "name_zh": "拉廊府"
+    },
+    {
+      "code": "86",
+      "name_th": "ชุมพร",
+      "name_en": "Chumphon",
+      "name_zh": "春蓬府"
+    },
+    {
+      "code": "90",
+      "name_th": "สงขลา",
+      "name_en": "Songkhla",
+      "name_zh": "宋卡府"
+    },
+    {
+      "code": "91",
+      "name_th": "สตูล",
+      "name_en": "Satun",
+      "name_zh": "沙敦府"
+    },
+    {
+      "code": "92",
+      "name_th": "ตรัง",
+      "name_en": "Trang",
+      "name_zh": "董里府 "
+    },
+    {
+      "code": "93",
+      "name_th": "พัทลุง",
+      "name_en": "Phatthalung",
+      "name_zh": "高頭崙府"
+    },
+    {
+      "code": "94",
+      "name_th": "ปัตตานี",
+      "name_en": "Pattani",
+      "name_zh": "北大年府"
+    },
+    {
+      "code": "95",
+      "name_th": "ยะลา",
+      "name_en": "Yala",
+      "name_zh": "也拉府"
+    },
+    {
+      "code": "96",
+      "name_th": "นราธิวาส",
+      "name_en": "Narathiwat",
+      "name_zh": "陶公府"
+    }
+  ]
+  

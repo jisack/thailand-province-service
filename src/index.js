@@ -1,37 +1,39 @@
 'use strict'
 const hapi = require('hapi');
-<<<<<<< e7c2e02aecf9b06b565971bc2451ed94a6255717:index.js
-=======
 const path = require('path');
 require('dotenv').config({
     path: path.join(__dirname, '../.env')
-})
+});
 
->>>>>>> update knex and hapi version and set new struckture:src/index.js
-const appRouter = require('./src/router');
-const server = new hapi.Server();
+const router = require('./module/router');
 
-server.connection({
-    host: 'localhost',
-    port: 7000,
+const server = hapi.server({
+    port: process.env.PORT,
+    host: process.env.HOST,
     routes: {
-        cors: true
+        cors: {
+            origin: ['*'],
+        }
+    },
+    debug: {
+        log: ['*']
     }
 });
 
-//Route
-server.route({
-    method: 'GET',
-    path: '/',
-    handler: (request, reply) => {
-        return reply('<h1>Welcome to Thailand Province and Amphur Service</h>')
-    }
+const init = async () => {  
+    await router(server);
+    await server.start();
+    console.log(`Server running at : ${server.info.uri}`);
+};
+
+
+server.events.on('log', (event, tags) => {
+    console.log(tags);
 });
 
-appRouter(server);
-
-//Start the Server
-server.start((err) => {
-    if (err) throw err;
-    console.log('Server running at:', server.info.uri)
+process.on('unhandledRejection', (err) => {
+    console.log(err);
+    process.exit(1);
 });
+
+init();
