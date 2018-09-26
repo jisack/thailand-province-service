@@ -1,4 +1,4 @@
-const knex = require('../knex');
+const knex = require('../database/knex');
 
 exports.getProvince = () => {
     return knex('provinces').select().then((data) => {

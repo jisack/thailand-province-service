@@ -1,11 +1,16 @@
 {
   "name": "thailand-province-service",
+<<<<<<< e7c2e02aecf9b06b565971bc2451ed94a6255717
   "version": "0.1.1",
+=======
+  "version": "0.0.2",
+>>>>>>> update knex and hapi version and set new struckture
   "description": "thailand province and district service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ."
+    "dev": "nodemon ./src",
+    "knex": "knex"
   },
   "keywords": [
     "thailand",
@@ -25,12 +30,19 @@
   "author": "Jisack",
   "license": "ISC",
   "dependencies": {
+<<<<<<< e7c2e02aecf9b06b565971bc2451ed94a6255717
     "dotenv": "^4.0.0",
     "hapi": "^16.6.2",
     "knex": "^0.14.0",
     "mysql": "^2.15.0"
+=======
+    "dotenv": "^6.0.0",
+    "hapi": "^17.5.2",
+    "knex": "^0.15.2",
+    "mysql": "^2.16.0"
+>>>>>>> update knex and hapi version and set new struckture
   },
   "devDependencies": {
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.18.4"
   }
 }
